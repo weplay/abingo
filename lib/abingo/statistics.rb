@@ -58,7 +58,7 @@ module Abingo::Statistics
   end
 
   def describe_result_in_words
-    alternatives_to_describe = alternatives
+    alternatives_to_describe = top_2_alternatives
     begin
       z = zscore
     rescue
