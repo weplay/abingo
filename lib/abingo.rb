@@ -4,10 +4,10 @@
 #Usage of ABingo, including practical hints, is covered at http://www.bingocardcreator.com/abingo
 
 class Abingo
-  autoload :ConversionRate, 'abingo/conversion_rate'
-  autoload :Alternative, 'abingo/alternative'
-  autoload :Statistics, 'abingo/statistics'
-  autoload :Experiement, 'abingo/experiment'
+  require 'abingo/conversion_rate'
+  require 'abingo/alternative'
+  require 'abingo/statistics'
+  require 'abingo/experiment'
   
   #Not strictly necessary, but eh, as long as I'm here.
   cattr_accessor :salt
