@@ -3,10 +3,11 @@
 
 #Usage of ABingo, including practical hints, is covered at http://www.bingocardcreator.com/abingo
 
-require 'abingo/alternative'
 require 'abingo/conversion_rate'
-require 'abingo/experiment'
+require 'abingo/alternative'
 require 'abingo/statistics'
+require 'abingo/experiment'
+
 
 class Abingo
 
